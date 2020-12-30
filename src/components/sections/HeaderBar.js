@@ -1,10 +1,9 @@
 import React from 'react';
-
 import Logo from '../../logo.svg'
 
 const HeaderBar = () =>
-  <div className="header-bar">
+  <header className="header-bar">
       <img src={Logo} alt="Logo" class="logo" />
-  </div>
+  </header>
 
 export default HeaderBar;
