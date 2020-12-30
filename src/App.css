@@ -44,6 +44,8 @@
 
 .people-list {
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .filter-bar {
@@ -57,4 +59,14 @@
   font-size: 14px;
   color: #393939;
   margin-bottom: 40px;
+}
+
+.entry-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.entry-avatar {
+  width: 96px;
+  height: 95px;
 }

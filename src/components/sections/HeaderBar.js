@@ -1,9 +1,10 @@
-import React from 'react';
-import Logo from '../../logo.svg'
+import React from "react";
+import Logo from "../../logo.svg";
 
-const HeaderBar = () =>
+const HeaderBar = () => (
   <header className="header-bar">
-      <img src={Logo} alt="Logo" className="logo" />
+    <img src={Logo} alt="Logo" className="logo" />
   </header>
+);
 
 export default HeaderBar;
