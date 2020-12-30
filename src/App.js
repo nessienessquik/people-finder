@@ -1,3 +1,5 @@
+import './App.css';
+
 import HeaderBar from './components/sections/HeaderBar';
 import PageSection from './components/sections/PageSection';
 

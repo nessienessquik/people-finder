@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SearchBar = () =>
-  <div className="header-bar">
+  <div className="">
       filter bar....
       
   </div>
