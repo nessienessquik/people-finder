@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/people-finder/static/css/main.87f612d7.chunk.css",
+    "main.js": "/people-finder/static/js/main.bedc9417.chunk.js",
+    "main.js.map": "/people-finder/static/js/main.bedc9417.chunk.js.map",
+    "runtime-main.js": "/people-finder/static/js/runtime-main.69d1af58.js",
+    "runtime-main.js.map": "/people-finder/static/js/runtime-main.69d1af58.js.map",
+    "static/js/2.dbd99f3c.chunk.js": "/people-finder/static/js/2.dbd99f3c.chunk.js",
+    "static/js/2.dbd99f3c.chunk.js.map": "/people-finder/static/js/2.dbd99f3c.chunk.js.map",
+    "static/js/3.bdc80612.chunk.js": "/people-finder/static/js/3.bdc80612.chunk.js",
+    "static/js/3.bdc80612.chunk.js.map": "/people-finder/static/js/3.bdc80612.chunk.js.map",
+    "index.html": "/people-finder/index.html",
+    "static/css/main.87f612d7.chunk.css.map": "/people-finder/static/css/main.87f612d7.chunk.css.map",
+    "static/js/2.dbd99f3c.chunk.js.LICENSE.txt": "/people-finder/static/js/2.dbd99f3c.chunk.js.LICENSE.txt",
+    "static/media/logo.dccda281.svg": "/people-finder/static/media/logo.dccda281.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.69d1af58.js",
+    "static/js/2.dbd99f3c.chunk.js",
+    "static/css/main.87f612d7.chunk.css",
+    "static/js/main.bedc9417.chunk.js"
+  ]
+}
