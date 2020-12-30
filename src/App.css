@@ -64,11 +64,14 @@
 .entry-item {
   display: flex;
   flex-direction: row;
+  margin: 10px 0;
 }
 
 .entry-avatar {
   width: 96px;
   height: 95px;
+  margin-right: 23px;
+  border-radius: 3px;
 }
 
 .entry-name {

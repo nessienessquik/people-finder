@@ -6,7 +6,7 @@ const SearchBar = () => (
       className="filter-bar"
       type="text"
       name="filter"
-      defaultValue="Type a name..."
+      placeholder="Type a name..."
     />
   </form>
 );
