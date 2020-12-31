@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/people-finder/static/css/main.e09365b9.chunk.css",
-    "main.js": "/people-finder/static/js/main.01c15bf3.chunk.js",
-    "main.js.map": "/people-finder/static/js/main.01c15bf3.chunk.js.map",
+    "main.js": "/people-finder/static/js/main.39189f60.chunk.js",
+    "main.js.map": "/people-finder/static/js/main.39189f60.chunk.js.map",
     "runtime-main.js": "/people-finder/static/js/runtime-main.69d1af58.js",
     "runtime-main.js.map": "/people-finder/static/js/runtime-main.69d1af58.js.map",
     "static/js/2.e2cd4fc1.chunk.js": "/people-finder/static/js/2.e2cd4fc1.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.69d1af58.js",
     "static/js/2.e2cd4fc1.chunk.js",
     "static/css/main.e09365b9.chunk.css",
-    "static/js/main.01c15bf3.chunk.js"
+    "static/js/main.39189f60.chunk.js"
   ]
 }
