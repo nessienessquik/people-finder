@@ -1,38 +1,60 @@
-import React from "react";
-import data from "../../data/data.json";
+import React, { useState } from 'react';
+import data from '../../data/data.json';
 
-import SearchBar from "./SearchBar";
+function PeopleList() {
 
-//create formatted data structure
-let formattedData = [];
-for (const [key] of Object.entries(data)) {
-  let listObject = {
-    avatar: data[key].avatar,
-    name: data[key].name,
-    summary: data[key].description,
+  //create formatted data structure, set as baseline state object
+  let formattedData = [];
+  for (const [key] of Object.entries(data)) {
+    let listObject = {
+      avatar: data[key].avatar,
+      name: data[key].name,
+      summary: data[key].description,
+    };
+
+    formattedData.push(listObject);
   };
 
-  formattedData.push(listObject);
-}
+  const [searchTerm, setSearchTerm] = useState('');
 
-const listings = formattedData.map((listing, i) => {
-  return (
-    <div key={i} className="entry-item">
-      <img src={listing.avatar} alt={listing.name} className="entry-avatar" />
-      <div className="entry-content">
-        <h4 className="entry-name">{listing.name}</h4>
-        <p className="entry-description">{listing.summary}</p>
+  const filteredData = formattedData.filter((entry) => {
+    
+    const name = entry.name.toUpperCase();
+    const search = searchTerm.toUpperCase();
+
+    return name.startsWith(search) === true;
+
+  });
+
+  const listings = filteredData.map((listing, i) => {
+    return (
+      <div key={i} className="entry-item">
+        <img src={listing.avatar} alt={listing.name} className="entry-avatar" />
+        <div className="entry-content">
+          <h4 className="entry-name">{listing.name}</h4>
+          <p className="entry-description">{listing.summary}</p>
+        </div>
       </div>
+    );
+  });
+
+  return(
+    <div className="people-list">
+
+      <form>
+        <input
+          className="filter-bar"
+          type="text"
+          name="filter"
+          placeholder="Type a name..."
+          value={searchTerm}
+          onChange={e => {setSearchTerm(e.target.value)}}
+        />
+      </form>
+
+      {listings}
     </div>
   );
-});
-
-const PeopleList = () => (
-
-  <div className="people-list">
-    <SearchBar />
-    {listings}
-  </div>
-);
+};
 
 export default PeopleList;
