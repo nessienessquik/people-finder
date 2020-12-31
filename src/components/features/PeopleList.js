@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
-import data from '../../data/data.json';
+import React, { useState } from "react";
+import data from "../../data/data.json";
 
 function PeopleList() {
-
-  //create formatted data structure, set as baseline state object
+  //create formatted data structure from json, set as baseline state object
   let formattedData = [];
   for (const [key] of Object.entries(data)) {
     let listObject = {
@@ -13,19 +12,20 @@ function PeopleList() {
     };
 
     formattedData.push(listObject);
-  };
+  }
 
-  const [searchTerm, setSearchTerm] = useState('');
+  // hook setup for search bar
+  const [searchTerm, setSearchTerm] = useState("");
 
+  // data for display object, filters by search hook value
   const filteredData = formattedData.filter((entry) => {
-    
     const name = entry.name.toUpperCase();
     const search = searchTerm.toUpperCase();
 
-    return name.startsWith(search) === true;
-
+    return name.includes(search) === true;
   });
 
+  // display object
   const listings = filteredData.map((listing, i) => {
     return (
       <div key={i} className="entry-item">
@@ -38,9 +38,8 @@ function PeopleList() {
     );
   });
 
-  return(
+  return (
     <div className="people-list">
-
       <form>
         <input
           className="filter-bar"
@@ -48,13 +47,15 @@ function PeopleList() {
           name="filter"
           placeholder="Type a name..."
           value={searchTerm}
-          onChange={e => {setSearchTerm(e.target.value)}}
+          onChange={(e) => {
+            setSearchTerm(e.target.value);
+          }}
         />
       </form>
 
       {listings}
     </div>
   );
-};
+}
 
 export default PeopleList;

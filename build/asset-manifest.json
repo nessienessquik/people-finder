@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/people-finder/static/css/main.7d929aab.chunk.css",
-    "main.js": "/people-finder/static/js/main.1e9845d2.chunk.js",
-    "main.js.map": "/people-finder/static/js/main.1e9845d2.chunk.js.map",
+    "main.css": "/people-finder/static/css/main.e09365b9.chunk.css",
+    "main.js": "/people-finder/static/js/main.01c15bf3.chunk.js",
+    "main.js.map": "/people-finder/static/js/main.01c15bf3.chunk.js.map",
     "runtime-main.js": "/people-finder/static/js/runtime-main.69d1af58.js",
     "runtime-main.js.map": "/people-finder/static/js/runtime-main.69d1af58.js.map",
-    "static/js/2.dbd99f3c.chunk.js": "/people-finder/static/js/2.dbd99f3c.chunk.js",
-    "static/js/2.dbd99f3c.chunk.js.map": "/people-finder/static/js/2.dbd99f3c.chunk.js.map",
+    "static/js/2.e2cd4fc1.chunk.js": "/people-finder/static/js/2.e2cd4fc1.chunk.js",
+    "static/js/2.e2cd4fc1.chunk.js.map": "/people-finder/static/js/2.e2cd4fc1.chunk.js.map",
     "static/js/3.bdc80612.chunk.js": "/people-finder/static/js/3.bdc80612.chunk.js",
     "static/js/3.bdc80612.chunk.js.map": "/people-finder/static/js/3.bdc80612.chunk.js.map",
     "index.html": "/people-finder/index.html",
-    "static/css/main.7d929aab.chunk.css.map": "/people-finder/static/css/main.7d929aab.chunk.css.map",
-    "static/js/2.dbd99f3c.chunk.js.LICENSE.txt": "/people-finder/static/js/2.dbd99f3c.chunk.js.LICENSE.txt",
+    "static/css/main.e09365b9.chunk.css.map": "/people-finder/static/css/main.e09365b9.chunk.css.map",
+    "static/js/2.e2cd4fc1.chunk.js.LICENSE.txt": "/people-finder/static/js/2.e2cd4fc1.chunk.js.LICENSE.txt",
     "static/media/logo.dccda281.svg": "/people-finder/static/media/logo.dccda281.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.69d1af58.js",
-    "static/js/2.dbd99f3c.chunk.js",
-    "static/css/main.7d929aab.chunk.css",
-    "static/js/main.1e9845d2.chunk.js"
+    "static/js/2.e2cd4fc1.chunk.js",
+    "static/css/main.e09365b9.chunk.css",
+    "static/js/main.01c15bf3.chunk.js"
   ]
 }
